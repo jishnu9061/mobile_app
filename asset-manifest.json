@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mobile-app/static/css/main.f855e6bc.css",
-    "main.js": "/mobile-app/static/js/main.808c991a.js",
-    "static/js/453.6d8ad5c7.chunk.js": "/mobile-app/static/js/453.6d8ad5c7.chunk.js",
-    "static/media/logo.svg": "/mobile-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/mobile-app/index.html",
-    "main.f855e6bc.css.map": "/mobile-app/static/css/main.f855e6bc.css.map",
-    "main.808c991a.js.map": "/mobile-app/static/js/main.808c991a.js.map",
-    "453.6d8ad5c7.chunk.js.map": "/mobile-app/static/js/453.6d8ad5c7.chunk.js.map"
+    "main.css": "/mobile_app/static/css/main.f855e6bc.css",
+    "main.js": "/mobile_app/static/js/main.43ec1d39.js",
+    "static/js/453.6d8ad5c7.chunk.js": "/mobile_app/static/js/453.6d8ad5c7.chunk.js",
+    "static/media/logo.svg": "/mobile_app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/mobile_app/index.html",
+    "main.f855e6bc.css.map": "/mobile_app/static/css/main.f855e6bc.css.map",
+    "main.43ec1d39.js.map": "/mobile_app/static/js/main.43ec1d39.js.map",
+    "453.6d8ad5c7.chunk.js.map": "/mobile_app/static/js/453.6d8ad5c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.808c991a.js"
+    "static/js/main.43ec1d39.js"
   ]
 }

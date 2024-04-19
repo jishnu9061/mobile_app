@@ -1,20 +1,58 @@
-.mainTitle {
-  color: #ffffff;
-  margin-top: 10px;
-  margin-right: 700px;
-  font-size: x-large;
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 7%;
 }
 
-.navLink {
-  color: #ffffff;
-  margin-top: 10px;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 100px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-size: medium;
+.logo{
+  width: 100px;
+  cursor: pointer;
 }
-.container {
-  background-color: #007bff;
+
+.ordered{
+  flex: 1;
+  list-style: none;
+  text-align: center;
+}
+
+.list{
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.searchbox{
+  display: flex;
+  align-items: center;
+  background: #242424;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.input{
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: white;
+  max-width: 200px;
+}
+
+.toogle-icon{
+  width: 50px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.search-box input::placeholder{
+  color: #fff;
+}
+
+.search-box img{
+  width: 20px;
+  cursor: pointer;
 }

@@ -4,7 +4,7 @@ import { NavBar } from './component/navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <NavBar />
     </div>
   );

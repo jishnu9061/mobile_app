@@ -1,40 +1,27 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from "./navbar.module.css"
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import styles from "./navbar.module.css";
+import logo_light from "../../assets/logo-white.png";
+import logo_black from "../../assets/logo-white.png";
+import search_icon_light from "../../assets/search-w.png";
+import search_icon_dark from "../../assets/search-b.png";
+import toogle_light from "../../assets/night.png";
+import toogle_dark from "../../assets/night.png";
 
 export  const NavBar = () => {
     return(
-        <>
-      <Navbar expand="lg" className="bg-body-tertiary" className={styles.container}>
-      <Container>
-        <Navbar.Brand href="#home" className={styles.mainTitle}>Portfolio</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home" className={styles.navLink}>About</Nav.Link>
-            <Nav.Link href="#projects" className={styles.navLink}>Projects</Nav.Link>
-            <Nav.Link href="#about" className={styles.navLink}>Experirence</Nav.Link>
-            <Nav.Link href="#contact" className={styles.navLink}>Contact</Nav.Link>
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-    </>
+        <div className={styles.navbar}>
+           <img src={logo_light} alt="" className={styles.logo} />
+          <ul className={styles.ordered}>
+            <li className={styles.list}>Home</li>
+            <li className={styles.list}>About</li>
+            <li className={styles.list}>Contact</li>
+            <li className={styles.list}>Experience</li>
+          </ul>
+        <div className={styles.searchbox}>
+          <input type="text" placeholder="Search"  className={styles.input} />
+          <img src={search_icon_light} alt="" />
+        </div>
+        {/* <img src={toogle_light}alt="" className="toogle-icon" /> */}
+        </div>
     )
 };
 export default NavBar;

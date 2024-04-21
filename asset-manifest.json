@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mobile_app/static/css/main.0ee1a547.css",
-    "main.js": "/mobile_app/static/js/main.c2c58b87.js",
+    "main.css": "/mobile_app/static/css/main.a9378e3d.css",
+    "main.js": "/mobile_app/static/js/main.2f49b019.js",
     "static/js/453.6d8ad5c7.chunk.js": "/mobile_app/static/js/453.6d8ad5c7.chunk.js",
     "static/media/jishnu.jpg": "/mobile_app/static/media/jishnu.f46fd7a31f52b25aaf11.jpg",
     "static/media/jishnu-logo.png": "/mobile_app/static/media/jishnu-logo.668c4f351eee7cf6bcda.png",
     "index.html": "/mobile_app/index.html",
-    "main.0ee1a547.css.map": "/mobile_app/static/css/main.0ee1a547.css.map",
-    "main.c2c58b87.js.map": "/mobile_app/static/js/main.c2c58b87.js.map",
+    "main.a9378e3d.css.map": "/mobile_app/static/css/main.a9378e3d.css.map",
+    "main.2f49b019.js.map": "/mobile_app/static/js/main.2f49b019.js.map",
     "453.6d8ad5c7.chunk.js.map": "/mobile_app/static/js/453.6d8ad5c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ee1a547.css",
-    "static/js/main.c2c58b87.js"
+    "static/css/main.a9378e3d.css",
+    "static/js/main.2f49b019.js"
   ]
 }

@@ -63,13 +63,13 @@
 
 @keyframes slideInFromLeft {
     0% {
-        transform: translateX(-100%);
+        transform: translateY(-100%);
     }
     100% {
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
 .banner {
-    animation: slideInFromLeft 1s ease-out; /* Adjust animation duration and timing function as needed */
+    animation: slideInFromLeft 1s ease-out; 
 }

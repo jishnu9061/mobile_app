@@ -5,7 +5,7 @@ export  const Banner = () => {
     return(
         <div>
          <span className={styles.span}>
-            <h2 className={styles.product}>Product</h2>
+            <h2 className={styles.product}>Developer</h2>
             <h1 className={styles.h1}>Hello!</h1>
         </span>
         <h2 className={styles.h2}>I am Jishnu</h2>

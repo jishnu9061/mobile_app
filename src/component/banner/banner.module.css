@@ -1,0 +1,75 @@
+.product, .h1 {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+    top: 100px;
+    left: 0;
+    font-size: 20px; 
+}
+
+.h1{
+    font-size: 44px;
+    color: whitesmoke;
+    top: 125px ;
+    z-index: 5;
+    margin-left: 100px;
+}
+.h2{
+    margin-top: 170px;
+    font-size: 80px;
+    color: whitesmoke;
+    margin-left: 100px;
+}
+.paragraph{
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 100px;
+    margin-right: 890px;
+    font-weight: 10%;
+}
+.product{
+    z-index: 0;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.1);
+    margin-left: 100px;
+    
+}
+.span {
+    display: flex;
+    align-items: flex-start;
+}
+.scroll{
+    font-size: medium;
+    margin-top: 50px;
+    color: white;
+    margin-left: 100px;
+}
+.img{
+    position: absolute;
+    bottom: 12%;
+    left: 20%;
+    margin-bottom: 50px;
+}
+
+.banner{
+    position: absolute;
+    width: 30%;
+    left: 60%;
+    height:50%;
+    top: 30%;
+    border-radius: 40%;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.banner {
+    animation: slideInFromLeft 1s ease-out; /* Adjust animation duration and timing function as needed */
+}

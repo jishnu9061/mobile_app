@@ -1,5 +1,6 @@
 import styles from "./navbar.module.css";
 import logo_light from "../../assets/logo-white.png";
+import logo from "../../assets/jishnu-logo.png";
 import logo_black from "../../assets/logo-white.png";
 import search_icon_light from "../../assets/search-w.png";
 import search_icon_dark from "../../assets/search-b.png";
@@ -9,12 +10,12 @@ import toogle_dark from "../../assets/night.png";
 export  const NavBar = () => {
     return(
         <div className={styles.navbar}>
-           <img src={logo_light} alt="" className={styles.logo} />
+           <img src={logo} alt="" className={styles.logo} />
           <ul className={styles.ordered}>
-            <li className={styles.list}>Home</li>
-            <li className={styles.list}>About</li>
-            <li className={styles.list}>Contact</li>
-            <li className={styles.list}>Experience</li>
+            <li className={styles.list}><a className={styles.atag} href="">Home</a></li>
+            <li className={styles.list}><a className={styles.atag} href="">About</a></li>
+            <li className={styles.list}><a className={styles.atag} href="">Contact</a></li>
+            <li className={styles.list}><a className={styles.atag} href="">Experience</a></li>
           </ul>
         <div className={styles.searchbox}>
           <input type="text" placeholder="Search"  className={styles.input} />

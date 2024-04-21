@@ -19,7 +19,7 @@
 
 .list{
   display: inline-block;
-  margin: 10px 20px;
+  margin: 45px 45px;
   font-size: 18px;
   color: white;
   cursor: pointer;
@@ -29,7 +29,7 @@
   display: flex;
   align-items: center;
   background: #242424;
-  padding: 10px 20px;
+  padding: 8px 20px;
   border-radius: 50px;
 }
 
@@ -55,4 +55,12 @@
 .search-box img{
   width: 20px;
   cursor: pointer;
+}
+
+a:link { 
+  text-decoration: none; 
+  color: white;
+} 
+.atag{
+  color: white;
 }
